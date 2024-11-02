@@ -1,0 +1,42 @@
+
+# 原作者：Raking
+# 本配置的限制全部由xydym制作 与 原作者无关！
+
+# 实体放置限制配置 放置实体的物品id+生成的生物名+数量
+USE_limits:
+  - "THAUMCRAFT_ITEMGOLEMPLACER:*|THAUMCRAFT_GOLEM:16"
+
+
+# 限制岛屿存在的实体数量
+Entity_limits_clear:
+  - "ZOMBIE:100"         # 僵尸
+  - "SKELETON:100"       # 骷髅
+  - "CREEPER:100"         # 爬行者
+  - "SPIDER:100"         # 蜘蛛
+  - "CAVE_SPIDER:30"    # 洞穴蜘蛛
+  - "ENDERMAN:30"        # 末影人
+  - "SLIME:60"          # 史莱姆
+  - "WITCH:30"           # 女巫
+  - "BLAZE:30"           # 烈焰人
+  - "GHAST:10"           # 恶魂
+  - "MAGMA_CUBE:30"     # 岩浆怪
+  - "SILVERFISH:10"     # 蠹虫
+  - "PIG:20"            # 猪
+  - "SHEEP:20"          # 羊
+  - "COW:20"            # 牛
+  - "CHICKEN:20"        # 鸡
+  - "SQUID:10"          # 鱿鱼
+  - "WOLF:5"            # 狼
+  - "OCELOT:5"          # 豹猫
+  - "VILLAGER:10"       # 村民
+  - "MUSHROOM_COW:10"    # 哞菇
+  - "SNOWMAN:10"         # 雪傀儡
+  - "IRON_GOLEM:10"      # 铁傀儡
+  - "BAT:10"            # 蝙蝠
+  - "THAUMCRAFT_GOLEM:16"  # 神秘时代傀儡
+
+
+
+# 没收在别人岛屿手持的物品
+notItem:
+  - THAUMCRAFT_GOLEMBELL

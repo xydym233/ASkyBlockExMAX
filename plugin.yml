@@ -1,0 +1,9 @@
+name: ASkyBlockEx
+main: com.Raking.ASkyBlockEx.ASkyBlockEx
+version: 0.0.2
+authors:
+  - Raking
+  - xydym 进行优化魔改
+description: 这是一个增强 AskyBlock 保护的插件
+softdepend: [ASkyBlock]
+loadbefore: [ASkyBlock]
